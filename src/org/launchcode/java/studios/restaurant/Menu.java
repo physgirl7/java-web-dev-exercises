@@ -1,6 +1,6 @@
 package org.launchcode.java.studios.restaurant;
 
-import java.sql.SQLOutput;
+
 import java.util.Date;
 import java.util.ArrayList;
 
@@ -8,7 +8,7 @@ public class Menu {
 
     private Date dateUpdated;
 
-    private ArrayList<MenuItem> items = new ArrayList<>();
+    private ArrayList<MenuItem> items;
 
     public Menu(ArrayList<MenuItem> items){
         this.dateUpdated = new Date();

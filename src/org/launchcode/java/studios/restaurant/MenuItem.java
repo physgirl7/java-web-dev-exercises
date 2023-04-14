@@ -1,7 +1,6 @@
 package org.launchcode.java.studios.restaurant;
 
 
-import java.util.HashMap;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Objects;
@@ -40,7 +39,8 @@ public class MenuItem {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         MenuItem menuItem = (MenuItem) o;
-        return Objects.equals(description, menuItem.description) && Objects.equals(category, menuItem.category) && name.equals(menuItem.name);
+//        return Objects.equals(description, menuItem.description) && Objects.equals(category, menuItem.category) && name.equals(menuItem.name);
+        return name.equals(menuItem.name);
     }
 
     @Override
